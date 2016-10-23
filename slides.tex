@@ -1,0 +1,42 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{centernot}
+\beamertemplatenavigationsymbolsempty
+\title{Das Trivialkriterium}
+\date{}
+
+\newcommand*{\N}{\mathbb N}
+
+\begin{document}
+  \begin{frame}
+    \titlepage
+  \end{frame}
+
+  \begin{frame}
+    \begin{theorem}[Trivialkriterium]
+      Wenn die Reihe $\sum_{k=1}^\infty a_k$ konvergiert, dann ist die Reihe $(a_k)_{k\in\N}$ eine Nullfolge.
+    \end{theorem}
+  \end{frame}
+
+  \begin{frame}
+    $\sum_{k=1}^\infty a_k \text{ konvergiert} \implies (a_k)_{k\in\N} \text{ ist eine Nullfolge.}$
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Beispiele}
+
+    Die Reihe $\sum_{k=1}^\infty (-1)^k$ divergiert nach dem Trivialkriterium.
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Beispiele}
+
+    Die Reihe $\sum_{k=1}^\infty \sqrt[k]{4}$ divergiert nach dem Trivialkriterium.
+  \end{frame}
+
+  \begin{frame}
+    \frametitle{Warnung}
+
+    $\lim_{k\to\infty} a_k = 0 \centernot\implies \sum_{k=1}^\infty a_k \text{ konvergiert}$
+  \end{frame}
+\end{document}
